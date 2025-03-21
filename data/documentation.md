@@ -1,6 +1,7 @@
-<!-- Just a waffle to check if MCP Client does follow docs when asked to generate a UI pattern -->
 
 # Docs
+
+## Just a waffle to check if MCP Client does follow docs when asked to generate a UI pattern -->
 
 ## How to generate a UI pattern 
 
