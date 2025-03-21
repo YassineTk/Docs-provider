@@ -3,13 +3,9 @@ import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js"
 import { z } from "zod";
 import fs from "fs/promises";
 import path from "path";
-import { fileURLToPath } from 'url';
-import { dirname } from 'path';
 
 // Constants
-const DOCUMENTATION_FILENAME = 'documentation.md';
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+const docsPath = process.argv[2];
 
 // Create server instance
 const server = new McpServer({
@@ -23,14 +19,8 @@ const server = new McpServer({
  */
 async function readDocumentation(): Promise<string> {
   try {
-    const projectRoot = path.resolve(__dirname, '..');
-    const docPath = path.join(projectRoot, 'data', DOCUMENTATION_FILENAME);
-    
-    // Validate file existence
-    await fs.access(docPath);
-    
-    // Read and validate content
-    const content = await fs.readFile(docPath, 'utf-8');
+    await fs.access(docsPath);
+    const content = await fs.readFile(docsPath, 'utf-8');
     if (!content.trim()) {
       throw new Error('Documentation file is empty');
     }

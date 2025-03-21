@@ -15,14 +15,17 @@ Add this to your Cursor configuration file (`mcp.json`):
     "Docs-provider": {
       "command": "node",
       "args": [
-        "/path/to/docs-provider/build/index.js"
+        "/path/to/docs-provider/build/index.js",
+        "/path/to/your/documentation.md"
       ]
     }
   }
 }
 ```
 
-Replace `/path/to/` with the absolute path to your docs-provider directory.
+Replace:
+- `/path/to/` with the absolute path to your docs-provider directory
+- `/path/to/your/documentation.md` with the path to your markdown documentation file
 
 ## Cursor Rules Configuration
 
