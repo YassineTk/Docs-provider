@@ -1,0 +1,27 @@
+## Soon
+-
+
+## Configuration with cursor
+
+Add this to your Cursor configuration file (`mcp.json`):
+
+```json
+{
+  "mcpServers": {
+    "Docs-provider": {
+      "command": "node",
+      "args": [
+        "/path/to/docs-provider/build/index.js"
+      ]
+    }
+  }
+}
+```
+
+Replace `/path/to/` with the absolute path to your docs-provider directory.
+
+## Cursor Rules Configuration
+
+Add this to your Cursor Rules (This ensures the documentation context is automatically used without explicitly mentioning "Using my MCP" in queries.):
+
+"If a user ask you about ui pattern then follow the docs-provider MCP server."
