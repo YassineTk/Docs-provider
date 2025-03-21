@@ -38,14 +38,6 @@ async function readDocumentation() {
         return `Error: Unable to access documentation - ${errorMessage}`;
     }
 }
-// Register documentation resource
-server.resource("documentation", "docs://main", async (uri) => ({
-    contents: [{
-            uri: uri.href,
-            text: await readDocumentation(),
-            mimeType: "text/markdown"
-        }]
-}));
 // Register documentation query tool
 server.tool("query-docs", {
     question: z.string().describe("The question to answer using the documentation")

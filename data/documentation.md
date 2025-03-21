@@ -10,3 +10,4 @@ pattern_id: stiwy-11
 slots: [name, image, description]
 main_props: [text_color]
 secondary_props: [background_color]
+another
