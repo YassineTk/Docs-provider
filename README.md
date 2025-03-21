@@ -26,6 +26,6 @@ Replace `/path/to/` with the absolute path to your docs-provider directory.
 
 ## Cursor Rules Configuration
 
-Add this to your Cursor Rules (This ensures the documentation context is automatically used without explicitly mentioning "Using my MCP" in queries.):
+Add the following specification to your Cursor Rules (This ensures the documentation context is automatically used without explicitly mentioning "Using my MCP" in queries.):
 
 "If a user ask you about ui pattern then follow the docs-provider MCP server."
