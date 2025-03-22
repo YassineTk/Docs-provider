@@ -25,7 +25,8 @@ Add this to your Cursor configuration file (`mcp.json`):
 
 Replace:
 - `/path/to/` with the absolute path to your docs-provider directory
-- `/path/to/your/documentation.md` with the path to your markdown documentation file
+- `/path/to/your/documentation.md` with the path to your markdown documentation file 
+### No rebuild is required after updating your Markdown documentation.
 
 ## Cursor Rules Configuration
 
