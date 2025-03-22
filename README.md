@@ -32,4 +32,4 @@ Replace:
 
 Add the following specification to your MCP Client Rules (eg. Cursor) (This ensures the documentation context is automatically used without explicitly mentioning "Using my MCP" in queries.):
 
-"If a user ask you about ui pattern then follow the docs-provider MCP server."
+"If a user ask you about "X Subject" then follow the docs-provider MCP server."
