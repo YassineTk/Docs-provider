@@ -28,7 +28,7 @@ Replace:
 - `/path/to/your/documentation.md` with the path to your markdown documentation file 
 ### No rebuild is required after updating your Markdown documentation.
 
-## Cursor Rules Configuration
+## MCP Client Rules Configuration
 
 Add the following specification to your Cursor Rules (This ensures the documentation context is automatically used without explicitly mentioning "Using my MCP" in queries.):
 
