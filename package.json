@@ -1,10 +1,11 @@
 {
-  "name": "docs-provider",
+  "name": "mcp-docs-provider",
   "version": "1.0.0",
+  "description": "MCP server for providing documentation",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "docs-provider": "./build/index.js"
+    "mcp-docs-provider": "./build/index.js"
   },
   "scripts": {
     "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\""
@@ -13,7 +14,10 @@
     "build"
   ],
   "keywords": [
-    "docs-provider"
+    "mcp-docs-provider",
+    "mcp",
+    "documentation",
+    "llm"
   ],
   "license": "ISC",
   "devDependencies": {

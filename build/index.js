@@ -6,7 +6,7 @@ import fs from "fs/promises";
 const docsPath = process.argv[2];
 // Create server instance
 const server = new McpServer({
-    name: "docs-provider",
+    name: "mcp-docs-provider",
     version: "1.0.0"
 });
 /**
