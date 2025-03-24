@@ -1,9 +1,6 @@
 # Docs Provider
 
-Documentation context provider for LLMs via MCP. This server enables AI models to seamlessly access and query your local technical documentation.
-
-## Soon
--
+Documentation context provider for LLMs via MCP. This server enables AI models to seamlessly access and query your local markdown technical documentation.
 
 ## Configuration with cursor
 
