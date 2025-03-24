@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
@@ -7,7 +8,7 @@ const docsPath = process.argv[2];
 // Create server instance
 const server = new McpServer({
     name: "mcp-docs-provider",
-    version: "1.0.0"
+    version: "1.0.1"
 });
 /**
  * Reads and validates the documentation file content
