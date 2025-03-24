@@ -22,7 +22,6 @@ Add this to your Cursor configuration file (`mcp.json`):
 ```
 
 - `/path/to/your/documentation.md` with the path to your markdown documentation file
-### No rebuild is required after updating your Markdown documentation.
 
 ## MCP Client Rules Configuration
 
