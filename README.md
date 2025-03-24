@@ -10,9 +10,10 @@ Add this to your Cursor configuration file (`mcp.json`):
 {
   "mcpServers": {
     "mcp-docs-provider": {
-      "command": "node",
+      "command": "npx",
       "args": [
-        "/path/to/mcp-docs-provider/build/index.js",
+        "-y",
+        "mcp-docs-provider",
         "/path/to/your/documentation.md"
       ]
     }
@@ -20,8 +21,6 @@ Add this to your Cursor configuration file (`mcp.json`):
 }
 ```
 
-
-- `/path/to/` with the absolute path to your mpc-docs-provider directory
 - `/path/to/your/documentation.md` with the path to your markdown documentation file
 ### No rebuild is required after updating your Markdown documentation.
 
