@@ -8,7 +8,7 @@ const docsPath = process.argv[2];
 // Create server instance
 const server = new McpServer({
     name: "mcp-docs-provider",
-    version: "1.0.1"
+    version: "1.0.2"
 });
 /**
  * Reads and validates the documentation file content
