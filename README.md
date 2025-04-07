@@ -1,6 +1,16 @@
 # MCP Docs Provider
 
+[![smithery badge](https://smithery.ai/badge/@YassineTk/mcp-docs-provider)](https://smithery.ai/server/@YassineTk/mcp-docs-provider)
+
 Documentation context provider for LLMs via MCP. This server enables AI models to seamlessly access and query your local markdown technical documentation.
+
+### Installing via Smithery
+
+To install mcp-docs-provider for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@YassineTk/mcp-docs-provider):
+
+```bash
+npx -y @smithery/cli install @YassineTk/mcp-docs-provider --client claude
+```
 
 ## Configuration with cursor
 
