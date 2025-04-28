@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/mseep-audited.png)](https://mseep.ai/app/yassinetk-mcp-docs-provider)
+
 # MCP Docs Provider
 
 [![smithery badge](https://smithery.ai/badge/@YassineTk/mcp-docs-provider)](https://smithery.ai/server/@YassineTk/mcp-docs-provider)
